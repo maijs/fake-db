@@ -1,0 +1,14 @@
+{
+    "name": "maijs/fake-db",
+    "type": "library",
+    "require": {
+        "drupal/core": "^9|^10"
+    },
+    "autoload": {
+        "psr-4": {
+            "maijs\\FakeDB\\": "src/"
+        }
+    },
+    "minimum-stability": "beta",
+    "prefer-stable": true
+}
